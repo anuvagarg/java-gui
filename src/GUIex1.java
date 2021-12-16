@@ -1,11 +1,14 @@
+//counts number of clicks :)
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+
 public class GUIex1 implements ActionListener {
 	int count = 0;
 	private JFrame frame;
